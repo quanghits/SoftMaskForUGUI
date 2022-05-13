@@ -102,7 +102,7 @@ Find the manifest.json file in the Packages folder of your project and edit it t
 ```js
 {
   "dependencies": {
-    "com.coffee.softmask-for-ugui": "https://github.com/mob-sakai/SoftMaskForUGUI.git",
+    "com.coffee.softmask-for-ugui": "https://github.com/quanghits/SoftMaskForUGUI.git",
     ...
   },
 }
@@ -110,7 +110,7 @@ Find the manifest.json file in the Packages folder of your project and edit it t
 
 To update the package, change suffix `#{version}` to the target version.
 
-* e.g. `"com.coffee.softmask-for-ugui": "https://github.com/mob-sakai/SoftMaskForUGUI.git#1.0.0",`
+* e.g. `"com.coffee.softmask-for-ugui": "https://github.com/quanghits/SoftMaskForUGUI.git#1.0.0",`
 
 Or, use [UpmGitExtension](https://github.com/mob-sakai/UpmGitExtension) to install and update the package.
 
